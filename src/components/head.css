@@ -1,0 +1,218 @@
+.head{padding-top: 40px;
+      padding-left: 40px;
+      padding-right: 40px;}
+.hi {
+    font-size: 1.6em; /* Adjust the font size as needed */
+    font-weight: bold;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, rgb(253, 118, 253), rgb(9, 185, 255)); /* Adjust the colors as needed */
+    animation: shine-animation 3s linear infinite, gradient-animation 3s linear infinite;
+    font-family:  'Belanosima',sans-serif;
+  }
+  
+  @keyframes shine-animation {
+    0%, 100% {
+      filter: brightness(100%);
+      transform: scale(1);
+    }
+    50% {
+      filter: brightness(200%);
+      transform: scale(1.1);
+    }
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  .there{
+    color:white;
+    font-size: 1.4em;
+    padding-left: 20px;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 300;
+  }
+  .thisis{color: white;
+font-size: 23px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;}
+
+.sadman{color: white;
+    font-size: 35px;
+    font-family: 'M PLUS 1 CODE', sans-serif;
+     padding-left: 20px;}
+
+
+     .sadman {
+         /* Adjust the font size as needed */
+        font-weight: bold;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(to right, rgb(253, 118, 253), rgb(238, 104, 14)); /* Adjust the colors as needed */
+        animation: shine-animation2 3s linear infinite, gradient-animation2 3s linear infinite;
+      }
+      
+      @keyframes shine-animation2 {
+        0%, 100% {
+          filter: brightness(100%);
+          transform: scale(1);
+        }
+        50% {
+          filter: brightness(200%);
+          transform: scale(1.1);
+        }
+      }
+      
+      @keyframes gradient-animation2 {
+        0% {
+          background-position: 0% 50%;
+        }
+        100% {
+          background-position: 100% 50%;
+        }
+      }
+
+
+      .passion{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+      }
+
+      .typing {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing-erasing 10s steps(60, end) infinite;
+      }
+    
+      @keyframes typing-erasing {
+        0%, 100% {width: 0;}
+        40%{width:70%;}
+        50%{width:100%;}
+        70%{width: 100%}
+      }
+      .con{width:fit-content; display: flex; margin-top: -40px;}
+      @media (max-width: 768px) {
+        .con {
+          margin-top: -30px;
+        }
+      }
+     
+     @keyframes blinking-cursor {
+        0%, 100% {
+          background-color: rgba(38, 194, 108, 0.055);
+        }
+        80% {background-color: rgb(83, 219, 20);}
+        }
+  
+
+       
+        .hi2 {
+         /* Adjust the font size as needed */
+          background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
+          background-image: linear-gradient(to right, rgb(255, 0, 119), rgb(77, 237, 248)); /* Adjust the colors as needed */
+          animation: shine-animation3 3s linear infinite, gradient-animation3 3s linear infinite;
+          font-family: 'Montserrat', sans-serif;
+        }
+        
+        @keyframes shine-animation3 {
+          0%, 100% {
+            filter: brightness(100%);
+            
+          }
+          50% {
+            filter: brightness(200%);
+            
+          }
+        }
+        @keyframes gradient-animation3 {
+          0% {
+            background-position: 0% 50%;
+          }
+          100% {
+            background-position: 100% 50%;
+          }
+        }
+        .cursor{height: 19px; width: 10px; background-color: red; 
+          margin-top: 35px; margin-left: 3px; height: 30px; 
+          animation: blinking-cursor 0.5s step-end infinite;}
+          @media (max-width: 768px) {
+            .cursor {
+              margin-top: 30px;
+            }
+          }
+          @media (max-width: 480px) {
+            .cursor {
+              margin-top: 25px;
+              height: 25px;
+            }
+          }
+          .drive{
+            margin-top: -40px;
+            font-family: Belanosima, sans-serif; 
+            background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
+            background-image: linear-gradient(to right, rgb(255, 0, 119), rgb(77, 237, 248)); /* Adjust the colors as needed */
+            animation: shine-animation3 4s linear infinite, gradient-animation4 3s linear infinite;
+          }
+
+          @keyframes shine-animation4 {
+            0%, 100% {
+              filter: brightness(100%);
+              
+            }
+            50% {
+              filter: brightness(200%);
+              
+            }
+          }
+          @keyframes gradient-animation4 {
+            0% {
+              background-position: 0% 50%;
+            }
+            100% {
+              background-position: 100% 50%;
+            }
+          }
+
+
+        .resume{padding: 7px; width: 160px;
+          background-image: linear-gradient(to right, rgb(255, 0, 119), rgb(77, 237, 248));
+          border-color: transparent;
+          border: 0px;
+          color: white;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: bold;
+          border-radius: 5%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .resumecon{width: 100%; align-items: center; justify-content:center; 
+           display: flex;
+        }
+        svg{height: 30px;}
+
+        .social{display: flex; align-items: center; justify-content: center;}
+
+        .socialicon{width: 100%;
+          height: 100%;
+          object-fit: cover;}
+
+          .siconcon{  width: 40px;height: 40px;
+               border-radius: 50%; overflow: hidden;
+               margin-top: 50px; margin-left: 5px; margin-right: 5px;
+               border: 3px solid white;
+          }

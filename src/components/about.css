@@ -1,0 +1,45 @@
+.about{
+    color:white;
+    font-family: "Fira Code", monospace;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.line{width: 60%; height: 3px; background-color: orange;
+  margin-top: -45px;
+  background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(233, 174, 14));  
+}
+.subabout{width: fit-content;}
+.subabout h1{ font-size: 35px;
+    background-image: linear-gradient(to right, rgb(88, 216, 175), rgb(193, 204, 36));
+    animation: aboutshine-animation 3s linear infinite, aboutgradient-animation 3s linear infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.linecon{   align-items: center;
+    justify-content: center;
+    display: flex;}
+
+
+    @keyframes aboutshine-animation {
+        0%, 100% {
+          filter: brightness(100%);
+          
+        }
+        50% {
+          filter: brightness(200%);
+          
+        }
+      }
+      @keyframes aboutgradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        100% {
+          background-position: 100% 50%;
+        }
+      }
+
+      .description{font-family: 'Montserrat', sans-serif; color: whitesmoke;}

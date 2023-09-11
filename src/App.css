@@ -1,0 +1,9 @@
+.sectionone{
+    display: flex;
+}
+
+@media (max-width: 810px) {
+    .sectionone {
+        display: block; 
+    }
+  }
