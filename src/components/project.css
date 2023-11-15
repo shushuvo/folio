@@ -1,0 +1,5 @@
+
+.project{display: flex; flex-wrap: wrap; justify-content: center;}
+@media only screen and (max-width: 600px) {
+    .project{display: block}
+}

@@ -1,0 +1,30 @@
+.contact-section {
+    text-align: center;
+  }
+
+  .email-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .copyright{
+    width: fit-content;
+    height: 40px;
+    background: linear-gradient(to bottom right, rgba(27, 22, 22, 0.582), rgba(3, 3, 3, 0.514));
+ 
+    padding: 2px;
+    margin-top: 40px;
+    padding-top: 10px;
+  
+    /* Box Shadow for Glossy Effect */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2), 0 4px 20px rgba(0, 0, 0, 0.1);
+  
+    /* Backdrop Filter for Blurry Effect */
+    backdrop-filter: blur(10px);
+  }

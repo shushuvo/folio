@@ -1,0 +1,103 @@
+.about{
+    color:white;
+    font-family: "Fira Code", monospace;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.line{width: 60%; height: 3px; background-color: orange;
+  margin-top: -45px;
+  background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(233, 174, 14));  
+}
+.subabout{width: fit-content;}
+.abouth1{ font-size: 35px;
+    background-image: linear-gradient(to right, rgb(88, 216, 175), rgb(193, 204, 36));
+    animation: aboutshine-animation 3s linear infinite, aboutgradient-animation 3s linear infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.linecon{   align-items: center;
+    justify-content: center;
+    display: flex;}
+
+
+    @keyframes aboutshine-animation {
+        0%, 100% {
+          filter: brightness(100%);
+          
+        }
+        50% {
+          filter: brightness(200%);
+          
+        }
+      }
+      @keyframes aboutgradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        100% {
+          background-position: 100% 50%;
+        }
+      }
+
+      .description{font-family: 'Montserrat', sans-serif; color: whitesmoke; 
+         display: flex;
+        justify-content: center;
+      }
+      .description > * {
+        margin-right: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 2px;
+      }
+      
+      .aboutbigboy {
+       display: flex;
+       justify-content: center;
+      }
+      .aboutbig { margin-top: -15px;
+       font-size: 15px;
+       width: 400px;
+       display: block;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .aboutbigboy {
+          display: block;
+        }
+        .aboutbig{ margin-top: 0;
+         width: fit-content;
+        }
+      }
+ul{ list-style: none;}
+
+.aboutdesh1{
+  background-image: linear-gradient(to right, rgb(23, 228, 228), rgb(165, 36, 204));
+  animation: aboutshine-animation 3s linear infinite, aboutgradient-animation 3s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.aboutdesh2{
+  background-image: linear-gradient(to right, rgb(57, 192, 102), rgb(48, 9, 59));
+  animation: aboutshine-animation 3s linear infinite, aboutgradient-animation 3s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.aboutdesh3{
+  background-image: linear-gradient(to right, rgb(228, 23, 23), rgb(165, 36, 204));
+  animation: aboutshine-animation 3s linear infinite, aboutgradient-animation 3s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.aboutdesh4{
+  background-image: linear-gradient(to right, rgb(228, 225, 23), rgb(165, 36, 204));
+  animation: aboutshine-animation 3s linear infinite, aboutgradient-animation 3s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

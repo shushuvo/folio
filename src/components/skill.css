@@ -1,0 +1,26 @@
+/* YourComponent.css */
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as needed */
+    width: 768px;
+  }
+  
+  /* Media query for screens smaller than 768px width */
+  @media (max-width: 768px) {
+    .skill {
+      justify-content: center; /* Center items on smaller screens */
+      width: fit-content;
+    }
+  }
+  
+  /* Add more media queries as needed for different screen sizes */
+  
+
+  .skill > * {
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+  }

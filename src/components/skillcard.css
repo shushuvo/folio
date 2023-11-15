@@ -1,0 +1,19 @@
+.skillcard {
+    width: fit-content;
+    height: fit-content;
+    background: linear-gradient(to bottom right, rgba(175, 112, 112, 0.288), #e0e0e021);
+    border-radius: 10px;
+    padding: 2px;
+  
+    /* Box Shadow for Glossy Effect */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2), 0 4px 20px rgba(0, 0, 0, 0.1);
+  
+    /* Backdrop Filter for Blurry Effect */
+    backdrop-filter: blur(10px);
+  }
+
+  @media only screen and (max-width: 600px) {
+
+  }
+  
+  .skillcard img{ width:140px; height: 140px;}

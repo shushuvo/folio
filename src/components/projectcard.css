@@ -1,0 +1,57 @@
+.projectcard {
+    width: fit-content;
+    height: fit-content;
+    background: linear-gradient(to bottom right, rgba(27, 22, 22, 0.582), rgba(3, 3, 3, 0.514));
+    border-radius: 10px;
+    padding: 2px;
+  
+    /* Box Shadow for Glossy Effect */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2), 0 4px 20px rgba(0, 0, 0, 0.1);
+  
+    /* Backdrop Filter for Blurry Effect */
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    margin: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+  }
+  .hotelmara{display: flex; justify-content: center;}
+  .projectcard img{ width:70px; height: 240px;padding-top: 5px;}
+  .butdiv{display: flex; justify-content: center;}
+  .glossy-button {
+    margin-top: 4px;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4a90e2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    animation: glow 1.5s infinite alternate;
+}
+
+.glossy-button::before {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    border-radius: 8px;
+    z-index: 1;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 0 10px #4a90e2;
+    }
+    to {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 0 20px #4a90e2;
+    }
+}
